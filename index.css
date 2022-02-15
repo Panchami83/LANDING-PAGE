@@ -1,0 +1,69 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  background-image: url('bgimg.png');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main{
+    float: right;
+  list-style: none;
+  margin-top: 20px;
+  padding-right: 30px;
+}
+.main li{
+    display: inline-block;
+
+}
+.main li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+.main li.active a{
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 100;
+
+}
+
+.logo img{
+    width: 150px;
+float: left;
+height: auto;
+}
+body{
+    font-size: monospace;
+
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+.info h1{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0;
+    margin-top: 0;
+    color: #EF6666;
+    
+
+}
+h1{
+    top: 229px;
+    left: 130px;
+    width: 947900pxpx;
+    height: 146px;
+    text-align: left;
+    margin-top: 235px;
+    font: normal normal bold 51px/68px Gilroy ☞;
+}
